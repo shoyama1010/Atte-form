@@ -1,0 +1,73 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.user-info {
+	text-align: right;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.punch-in-out {
+	margin-bottom: 20px;
+}
+
+.punch-in-out h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.punch-in-out button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.attendance-history {
+	margin-bottom: 20px;
+}
+
+.attendance-history h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 8px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+}
